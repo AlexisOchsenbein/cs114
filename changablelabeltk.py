@@ -21,7 +21,7 @@ def buttonPushed():
         myText.set("What the hell man?")
     if count == 30:
         myText.set("Alright you asked for it...")
-    if count == 5:
+    elif count == 35:
         root_Two =Tk()
         root_Two.title("Angry!")
         myText_Two.set("HELLO!?!")
